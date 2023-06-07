@@ -1,0 +1,190 @@
+{
+	"easycom": {
+		"^u-(.*)": "uview-ui/components/u-$1/u-$1.vue"
+	},
+	"pages": [{
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "登录",
+				"app-plus": {
+					"titleNView": false //禁用原生导航栏  
+				}
+			}
+		},
+		{
+			"path": "pages/pages/taskLook",
+			"style": {
+				"navigationBarTitleText": "三日计划"
+			}
+		},
+		{
+			"path": "pages/pages/production",
+			"style": {
+				"navigationBarTitleText": "当日生产报工"
+			}
+		},
+		{
+			"path": "pages/pages/productionDetails",
+			"style": {
+				"navigationBarTitleText": "",
+				"app-plus": {
+					"titleNView": {
+						"buttons": [{
+							"text": "提报不良",
+							"fontSize": "30rpx",
+							"color": "#fff820",
+							"width": "125rpx",
+							"display": "inline-block",
+							"borderBottom": "1px solid #fff"
+						}]
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/pages/editProduction",
+			"style": {
+				"navigationBarTitleText": "报工录入"
+			}
+		},
+		{
+			"path": "pages/pages/selectPeople",
+			"style": {
+				"navigationBarTitleText": "生产人员"
+			}
+		}, {
+			"path": "pages/index/newIndex",
+			"style": {
+				"app-plus": {
+					"titleNView": false //禁用原生导航栏  
+				}
+
+			}
+		}, {
+			"path": "pages/pages/aduitRecord",
+			"style": {
+				"navigationBarTitleText": "审核记录"
+			}
+		}, {
+			"path": "pages/pages/productionRecord",
+			"style": {
+				"navigationBarTitleText": "报工记录"
+			}
+		}, {
+			"path": "pages/pages/newMoreProduction",
+			"style": {
+				"navigationBarTitleText": "集体报工"
+			}
+		}, {
+			"path": "pages/pages/newOnlyProduction",
+			"style": {
+				"navigationBarTitleText": "个人报工"
+			}
+		}, {
+			"path": "pages/pages/userReport",
+			"style": {}
+		}, {
+			"path": "pages/pages/searchSalary",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/pages/salarySearch",
+			"style": {
+				"app-plus": {
+					"titleNView": false //禁用原生导航栏  
+				}
+			}
+
+		}, {
+			"path": "pages/pages/AbnormalNo",
+			"style": {
+				"navigationBarTitleText": "不良单据中心",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/pages/badProductDetails_2_draft",
+			"style": {
+				"navigationBarTitleText": "异常草稿修改",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/pages/badProductDetails_2",
+			"style": {
+				"navigationBarTitleText": "不良品维护",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/pages/newBadProductDetails_2",
+			"style": {
+				"navigationBarTitleText": "不良提报",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/pages/newBadProductDetails_2_draft",
+			"style": {
+				"navigationBarTitleText": "修改草稿",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/pages/newHourProduction",
+			"style": {
+				"navigationBarTitleText": "计时报工",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/pages/production_2",
+			"style": {
+				"navigationBarTitleText": "其他计时",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/pages/new_bad_1",
+			"style": {
+				"navigationBarTitleText": "提报不良",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/pages/new_bad_2",
+			"style": {
+				"navigationBarTitleText": "提报不良",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/pages/new_bad_2_2",
+			"style": {
+				"navigationBarTitleText": "修改草稿",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/pages/new_bad_0",
+			"style": {
+				"navigationBarTitleText": "提报不良",
+				"enablePullDownRefresh": false
+			}
+
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "首页",
+		"navigationBarBackgroundColor": "#1890ff",
+		// "backgroundColor": "#795AFF",
+		"backgroundColor": "#1890ff",
+		"app-plus": {
+			"background": "#efeff4"
+		}
+	}
+}
